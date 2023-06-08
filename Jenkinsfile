@@ -14,6 +14,7 @@ pipeline {
                 sh '''
                 echo "doing BUILDING stuff.."
                 python --version
+		python test.py
                 '''
             }
         }
