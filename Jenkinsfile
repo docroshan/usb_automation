@@ -10,6 +10,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 echo "doing BUILDING stuff.."
+                python --version
                 '''
             }
         }
