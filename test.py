@@ -1,1 +1,1 @@
-print("Running: test.py")
+print(f"{'*' * 100}")

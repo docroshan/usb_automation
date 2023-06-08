@@ -15,6 +15,8 @@ pipeline {
                 echo "doing BUILDING stuff.."
                 python --version
 		python test.py
+		pip install -r requirements.txt
+		python test.py
                 '''
             }
         }
