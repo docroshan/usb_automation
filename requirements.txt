@@ -1,12 +1,6 @@
-time==latest
-sys==latest
-os==latest
-simple_colors==latest
-collections==latest
-Flask==2.3.2
 iniconfig==2.0.0
 paramiko==3.1.0
-p==1.11.0
+py==1.11.0
 pycparser==2.21
 pyinstaller==5.10.1
 pytest==7.3.1
