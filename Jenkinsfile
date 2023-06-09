@@ -25,6 +25,9 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 echo "doing TESTING stuff.."
+		python3 test.py
+		python3 utility.py
+		python3 test.py
                 '''
             }
         }
